@@ -1,0 +1,3 @@
+I am a third-year graduate student in the Department of Computing and Mathematical Sciences at Caltech. My research sits at the intersection of online algorithms, machine learning, and economics. I am particularly interested in how strategic interactions influence the learning algorithms, with applications in online markets, healthcare systems, transportation  and networks.
+
+I am fortunate to be advised by Professors Adam Wierman and Eric Mazumdar. Previously, I received a B.S.E in Computer Science from Princeton, where I had the opportunity to work with Professors Matt Weinberg on auctions and Prateek Mittal on adversarial machine learning.
