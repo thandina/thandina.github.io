@@ -7,11 +7,11 @@
     "profiles": [
     ]
   },
-  
+
   "education": [
     {
       "institution": "California Institute of Technology",
-      "location": "Pasadena, California",
+      "location": "Pasadena, CA",
       "url": "https://www.caltech.edu/",
       "area": "Computing + Mathematical Sciences",
       "studyType": "PhD",
@@ -20,7 +20,7 @@
     },
     {
       "institution": "Princeton University",
-      "location": "Princeton, New Jersey",
+      "location": "Princeton, NJ",
       "url": "https://www.princeton.edu/",
       "area": "Computer Science",
       "studyType": "Bachelor of Science in Engineering",
