@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am at the ESIF AI+ML Meeting to present our work on <a href="https://arxiv.org/abs/2402.07588">Understanding Model Selection For Learning In Strategic Environments</a>  .
+I am at the ESIF Economics and AI+ML Meeting to present our work on <a href="https://arxiv.org/abs/2402.07588">Understanding Model Selection For Learning In Strategic Environments</a>  .
