@@ -15,9 +15,9 @@
       author={Tinashe Handina and Tongxin Li and Kishan Panaganti and Eric Mazumdar and Adam Wierman},
       year={2026},
       booktitle={29th International Conference on Artificial Intelligence and Statistics (AISTATS 2026)},
-      arxiv={2606.10261},
       url={https://arxiv.org/abs/2606.10261},
       pdf={https://arxiv.org/pdf/2606.10261},
+      abstract={We study how an agent in a two-player repeated game can effectively utilize potentially imperfect advice when interacting with a no-regret learner. We characterize the advice landscape by introducing a pseudo-metric to quantify the usefulness of an advice instance. We demonstrate the pseudo-metric's applicability through two forms of advice: simulators and payoff matrix predictions. We then show how an optimizing player, equipped with correctness guarantees on the advice, could leverage simulators to compute approximate Stackelberg strategies more efficiently, reducing the interaction complexity traditionally required and illustrating the power of good advice. Finally, we extend our analysis to settings where the advice does not have any guarantee of correctness. We find that, in general, a player cannot simultaneously guarantee near Stackelberg performance when the advice is approximately accurate and a no-regret condition when the advice is inaccurate. We do show, however, that it is possible for an advice-aided player to weakly dominate their utility in some (coarse)-correlated equilibria.},
 }
 
 @inproceedings{panaganti2025planworstadvice,
@@ -37,8 +37,9 @@
       author={Tinashe Handina and Eric Mazumdar},
       year={2024},
       booktitle={38th Conference on Neural Information Processing Systems (NeurIPS 2024)},
-      url={https://arxiv.org/abs/2402.07588}, 
-      pdf={https://arxiv.org/abs/2402.07588},
+      url={https://arxiv.org/abs/2402.07588},
+      pdf={https://arxiv.org/pdf/2402.07588},
+      abstract={The deployment of ever-larger machine learning models reflects a growing consensus that the more expressive the model class one optimizes over--and the more data one has access to--the more one can improve performance. As models get deployed in a variety of real-world scenarios, they inevitably face strategic environments. In this work, we consider the natural question of how the interplay of models and strategic interactions affects the relationship between performance at equilibrium and the expressivity of model classes. We find that strategic interactions can break the conventional view--meaning that performance does not necessarily monotonically improve as model classes get larger or more expressive (even with infinite data). We show the implications of this result in several contexts including strategic regression, strategic classification, and multi-agent reinforcement learning. In particular, we show that each of these settings admits a Braess' paradox-like phenomenon in which optimizing over less expressive model classes allows one to achieve strictly better equilibrium outcomes. Motivated by these examples, we then propose a new paradigm for model selection in games wherein an agent seeks to choose amongst different model classes to use as their action set in a game.},
 }
 
 @inproceedings{li2024safeexploitativeplayuntrusted,
@@ -47,8 +48,9 @@
       author={Tongxin Li and Tinashe Handina and Shaolei Ren and Adam Wierman},
       year={2024},
       booktitle={38th Conference on Neural Information Processing Systems (NeurIPS 2024)},
-      url={https://arxiv.org/abs/2411.07679}, 
-      pdf={https://arxiv.org/abs/2411.07679},
+      url={https://arxiv.org/abs/2411.07679},
+      pdf={https://arxiv.org/pdf/2411.07679},
+      abstract={The combination of the Bayesian game and learning has a rich history, with the idea of controlling a single agent in a system composed of multiple agents with unknown behaviors given a set of types, each specifying a possible behavior for the other agents. The idea is to plan an agent's own actions with respect to those types which it believes are most likely to maximize the payoff. However, the type beliefs are often learned from past actions and likely to be incorrect. With this perspective in mind, we consider an agent in a game with type predictions of other components, and investigate the impact of incorrect beliefs to the agent's payoff. In particular, we formally define a tradeoff between risk and opportunity by comparing the payoff obtained against the optimal payoff, which is represented by a gap caused by trusting or distrusting the learned beliefs. Our main results characterize the tradeoff by establishing upper and lower bounds on the Pareto front for both normal-form and stochastic Bayesian games, with numerical results provided.},
 }
 
 @InProceedings{pmlr-v178-christianson22a,
@@ -73,7 +75,9 @@
   author={Vikash Sehwag and Saeed Mahloujifar and Tinashe Handina and Sihui Dai and Chong Xiang and Mung Chiang and Prateek Mittal},
   booktitle={International Conference on Learning Representations},
   year={2021},
-  url={https://api.semanticscholar.org/CorpusID:237940634}
+  url={https://arxiv.org/abs/2104.09425},
+  pdf={https://arxiv.org/pdf/2104.09425},
+  abstract={While additional training data improves the robustness of deep neural networks against adversarial examples, it presents the challenge of curating a large number of specific real-world samples. We circumvent this challenge by using additional data from proxy distributions learned by advanced generative models. We first seek to formally understand the transfer of robustness from classifiers trained on proxy distributions to the real data distribution. We prove that the difference between the robustness of a classifier on the two distributions is upper bounded by the conditional Wasserstein distance between them. Next we use proxy distributions to significantly improve the performance of adversarial training on five different datasets. For example, we improve robust accuracy by up to 7.5\% and 6.7\% in $\ell_{\infty}$ and $\ell_2$ threat model over baselines that are not using proxy distributions on the CIFAR-10 dataset. We also improve certified robust accuracy by 7.6\% on the CIFAR-10 dataset. We further demonstrate that different generative models bring a disparate improvement in the performance in robust training. We propose a robust discrimination approach to characterize the impact of individual generative models and further provide a deeper understanding of why current state-of-the-art in diffusion-based generative models are a better choice for proxy distribution than generative adversarial networks.},
 }
 
 @mastersthesis{random_walk_extensive_games,
